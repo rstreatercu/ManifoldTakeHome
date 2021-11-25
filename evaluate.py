@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--evaluate_data', type=str, help='evaluation data file', default="data_evaluate.csv")
 parser.add_argument('-r', '--regressor_file', type=str, help='regressor variable file', default="regressor.joblib")
 parser.add_argument('--n_plot', type=int, help='number of points to plot', default=100)
-parser.add_argument('-t', '--test', help='run on unit test mode', action='store_true')
+#parser.add_argument('-t', '--test', help='run on unit test mode', action='store_true')
 
 args = parser.parse_args()
 

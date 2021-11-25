@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 # Parse input arguments
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--train_data', type=str, nargs=1, help='training data file', default="data_train.csv")
-parser.add_argument('-t', '--test', help='run on unit test mode', action='store_true')
+#parser.add_argument('-t', '--test', help='run on unit test mode', action='store_true')
 parser.add_argument('-n','--n_trees', type=int, help='number of decision trees to use', default=100)
 parser.add_argument('--max_depth', type=int, help='max tree depth', default=10)
 parser.add_argument('--min_samples_split', type=int, help='minimum samples required to split a node', default=10)
