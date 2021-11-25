@@ -1,4 +1,4 @@
-# ManifoldTakeHome
+# Manifold Take Home Problem
 
 Usage:
 To run all three modules on default, use the commands:
